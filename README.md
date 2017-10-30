@@ -1,5 +1,5 @@
 # Visual Basic Workshop
-Material and instructions for the Visual Basic Workshop
+Material and instructions for the Visual Basic Workshop. Short link : [goo.gl/vVJKrK](https://goo.gl/vVJKrK)
 
 ### Download this [repository](https://github.com/ieeeupsb/workshop-vb/archive/master.zip)
 
