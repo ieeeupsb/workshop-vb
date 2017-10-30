@@ -1,5 +1,5 @@
 # Visual Basic Workshop
-Material and instructions for the Visual Basic Workshop
+Material and instructions for the Visual Basic Workshop. Short link : [goo.gl/vVJKrK](https://goo.gl/vVJKrK)
 
 ### Download this [repository](https://github.com/ieeeupsb/workshop-vb/archive/master.zip)
 
@@ -10,7 +10,7 @@ Material and instructions for the Visual Basic Workshop
 ---
 ### Iterations
 
- - [ ] 30/10/2017 - from 14h00 to 17h00, at B225 (by [@msramalho](https://github.com/msramalho))
+ - [ ] 30/10/2017 - from 14h30 to 17h30, at B225 (by [@msramalho](https://github.com/msramalho))
  
 ---
 
