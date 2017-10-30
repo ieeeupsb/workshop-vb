@@ -72,11 +72,35 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
+    <Compile Include="Form_Class.Designer.vb">
+      <DependentUpon>Form_Class.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Class.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Form_Components.Designer.vb">
+      <DependentUpon>Form_Components.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Components.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Home.Designer.vb">
+      <DependentUpon>Form_Home.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_IO.Designer.vb">
+      <DependentUpon>Form_IO.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_IO.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Web.Designer.vb">
+      <DependentUpon>Form_Web.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Web.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -94,8 +118,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="StickMan.vb" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form_Class.resx">
+      <DependentUpon>Form_Class.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Components.resx">
+      <DependentUpon>Form_Components.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Home.resx">
+      <DependentUpon>Form_Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_IO.resx">
+      <DependentUpon>Form_IO.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Web.resx">
+      <DependentUpon>Form_Web.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
