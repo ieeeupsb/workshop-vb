@@ -10,7 +10,7 @@ Material and instructions for the Visual Basic Workshop. Short link : [goo.gl/vV
 ---
 ### Iterations
 
- - [ ] 30/10/2017 - from 14h30 to 17h30, at B225 (by [@msramalho](https://github.com/msramalho))
+ - [x] 30/10/2017 - from 14h30 to 17h30, at B225 (by [@msramalho](https://github.com/msramalho))
  
 ---
 
