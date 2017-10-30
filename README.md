@@ -1,7 +1,7 @@
 # Visual Basic Workshop
 Material and instructions for the Visual Basic Workshop
 
-### Download this [repository](https://github.com/ieeeupsb/workshop-vb/archive/master.zip) or maybe just the [power point presentation](#)
+### Download this [repository](https://github.com/ieeeupsb/workshop-vb/archive/master.zip)
 
 ### Go straight to the [wiki](https://github.com/ieeeupsb/workshop-vb/wiki) to get started!
 
