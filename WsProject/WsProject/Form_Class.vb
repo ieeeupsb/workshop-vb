@@ -16,14 +16,6 @@
         sman = New StickMan(pb)
     End Sub
 
-    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles tbSteps.Scroll
-        sman.Steps = tbSteps.Value
-    End Sub
-
-    Private Sub tbSteps_KeyDown(sender As Object, e As KeyEventArgs) Handles tbSteps.KeyDown
-        handleKey(e.KeyCode)
-    End Sub
-
     Public Sub handleKey(ByVal k As Integer)
         If k = 32 Then
             sman.randomMove()
