@@ -36,6 +36,14 @@
         pb.Location = loc
     End Sub
 
+    Public Sub decelarate()
+        Steps -= 5
+    End Sub
+
+    Public Sub accelarate()
+        Steps += 5
+    End Sub
+
     Public Sub randomMove()
         Me.move(CInt(Math.Ceiling(Rnd() * 4)) + 37)
     End Sub

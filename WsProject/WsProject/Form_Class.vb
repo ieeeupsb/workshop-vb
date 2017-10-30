@@ -1,5 +1,8 @@
 ﻿Public Class Form_Class
     Public sman As StickMan
+    Private Space As Integer = 32
+    Private Plus As Integer = 187
+    Private Minus As Integer = 189
     Private Sub Form_Class_KeyDown(sender As Object, e As KeyEventArgs) Handles Me.KeyDown
         handleKey(e.KeyCode)
     End Sub
@@ -17,8 +20,12 @@
     End Sub
 
     Public Sub handleKey(ByVal k As Integer)
-        If k = 32 Then
+        If k = Space Then
             sman.randomMove()
+        ElseIf k = Plus Then
+            sman.accelarate()
+        ElseIf k = Minus Then
+            sman.decelarate()
         Else
             sman.move(k)
         End If
